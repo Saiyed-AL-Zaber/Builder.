@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Builder-build your dream</title>
+    <!-- google-fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!--vendors-stylesheet-file -->
+    <link rel="stylesheet" href="vendors/css/normalize.css" />
+    <!-- css-stylesheet-file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- HEADING-SECTION-START-HERE -->
+    <header id="header-section">
+      <nav class="row row-padding">
+        <a href="javascript:void(0)" class="nav-brand col-2"> Builder. </a>
+        <ul class="main-nav col-6">
+          <li><a href="#header-section">home</a></li>
+          <li><a href="#featured-section">feature</a></li>
+          <li><a href="#customer-review-section">service</a></li>
+          <li><a href="#feature-pro-section">listed</a></li>
+          <li><a href="#footer-section">contact</a></li>
+        </ul>
+        <div class="nav-buttons col-3 col-sm-5 col-lg-4">
+          <div class="buttons">
+            <button class="btn sign-in-btn" type="button">Sign in</button>
+            <button class="btn Register-btn" type="button">Register</button>
+          </div>
+        <!-- MOBILE-MENU-START-HERE -->
+          <div class="mobile-menu">
+            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" onclick="closeNav()" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+              <div class="overlay-content">
+                <a onclick="closeNav()" href="#header-section">home</a>
+                <a onclick="closeNav()" href="#featured-section">feature</a>
+                <a onclick="closeNav()" href="#customer-review-section">service</a>
+                <a onclick="closeNav()" href="#feature-pro-section">listed</a>
+                <a onclick="closeNav()" href="#footer-section">contact</a>
+              </div>
+            </div>
+          </div>
+        <!-- MOBILE-MENU-ENDS-HERE -->
+        </div>
+      </nav>
+    </header>
+    <!-- HEADING-SECTION-ENDS-HERE -->
+    <!-- BANNER-SECTION-START-HERE -->
+    <section id="banner-section" class="js--services-section">
+      <div class="row banner-box row-padding">
+        <div class="banner-text-box col-7 col-md-12">
+          <p class="section-description banner-subtitle">
+            Welcome to Builder Agency
+          </p>
+          <h1 class="banner-heading">Discover a place you'll love to live.</h1>
+          <p class="section-description banner-description">
+            get the best real estate deals first, before they hit the mass
+            market! hot foreclosure deals with one simple search
+          </p>
+          <button type="button" class="btn banner-btn">more about us</button>
+        </div>
+        <div class="banner-img col-5 col-md-12">
+          <img src="img/house-illustration.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- BANNER-SECTION-ENDS-HERE -->
+    <!-- REVIEW-SECTION-START-HERE -->
+
+    <section id="review-section">
+      <div class="row">
+        <div class="review-section-box">
+          <div class="review-left col-6 col-md-12">
+            <a href="javascript:void(0)" class="review-brand">Builder.</a>
+            <p class="review-subtitle">
+              More than 45,000+ companies trust besnik
+            </p>
+          </div>
+          <div class="review-right col-6 col-md-12">
+            <ul class="rating">
+              <li>
+                <img src="img/star.png" alt="" />
+              </li>
+              <li>
+                <img src="img/star.png" alt="" />
+              </li>
+              <li>
+                <img src="img/star.png" alt="" />
+              </li>
+              <li>
+                <img src="img/star.png" alt="" />
+              </li>
+              <li>
+                <img src="img/star.png" alt="" />
+              </li>
+            </ul>
+            <p class="review-subtitle">5 Star Ratings (2k+ Review)</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="review-client">
+          <ul class="client-review-logo">
+            <li>
+              <img src="img/Bitmap.png" alt="" />
+            </li>
+            <li>
+              <img src="img/logo.png" alt="" />
+            </li>
+            <li class="amazon-logo">
+              <img src="img/Union.png" alt="" />
+            </li>
+            <li>
+              <img src="img/woocommerce.png" alt="" />
+            </li>
+            <li>
+              <img src="img/sitepoint.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEW-SECTION-ENDS-HERE -->
+    <!-- SERVICE-SECTION-START-HERE -->
+
+    <section id="service-section">
+      <div class="row">
+        <div class="col-10 col-sm-12 service-section-box">
+          <div class="service-text-box">
+            <hr class="section-hr" />
+            <h2>How it's works ?</h2>
+            <p class="section-small-description">
+              Everything you need to know when you're looking to buy, rent, or
+              sell - all in one place.
+            </p>
+          </div>
+          <div class="services">
+            <div class="services-item col-4 col-md-12">
+              <div class="services-icon">
+                <img src="img/icon1.png" alt="" />
+              </div>
+              <h3>Buyer Guides</h3>
+              <p class="services-subtitle">
+                <a href="">
+                  how to buy <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </p>
+            </div>
+            <div class="services-item col-4 col-md-12">
+              <div class="services-icon">
+                <img src="img/icon2.png" alt="" />
+              </div>
+              <h3>Buyer Guides</h3>
+              <p class="services-subtitle">
+                <a href="">
+                  how to rent <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </p>
+            </div>
+            <div class="services-item col-4 col-md-12">
+              <div class="services-icon">
+                <img src="img/icon3.png" alt="" />
+              </div>
+              <h3>Buyer Guides</h3>
+              <p class="services-subtitle">
+                <a href="">
+                  how to sell <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="services-btn">
+            <button class="btn service-btn">Sell Full Guidelines</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICE-SECTION-ENDS-HERE -->
+    <!-- FEATURED-SECTION-START-HERE -->
+
+    <section id="featured-section">
+      <div class="row featured-row">
+        <div class="featured-text-left">
+          <h2>Featured Properties</h2>
+          <p class="section-small-description">
+            Everything you need to know when you're looking
+          </p>
+        </div>
+        <div class="featured-text-right">
+          <a href=""
+            >View All Properties <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row featured-card-section">
+        <div class="featured-card col-4 col-md-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/image1.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-header">$35000</h3>
+              <p class="card-text">8502 Preston Rd. Inglewood, Maine 98280</p>
+              <ul class="card-footer">
+                <li class="product">
+                  <i class="fa-solid fa-bed"></i> <span>5 Beds</span>
+                </li>
+                <li class="product">
+                  <i class="fa-solid fa-bath"></i> <span>2 Bath</span>
+                </li>
+                <li class="product">
+                  <i class="fa-regular fa-square"></i> <span>2000 sqft</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card col-4 col-md-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/image2.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-header">$35000</h3>
+              <p class="card-text">8502 Preston Rd. Inglewood, Maine 98280</p>
+              <ul class="card-footer">
+                <li class="product">
+                  <i class="fa-solid fa-bed"></i> <span>5 Beds</span>
+                </li>
+                <li class="product">
+                  <i class="fa-solid fa-bath"></i> <span>2 Bath</span>
+                </li>
+                <li class="product">
+                  <i class="fa-regular fa-square"></i> <span>2000 sqft</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card col-4 col-md-12">
+          <div class="card">
+            <div class="card-img">
+              <img src="img/image3.png" alt="" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-header">$35000</h3>
+              <p class="card-text">8502 Preston Rd. Inglewood, Maine 98280</p>
+              <ul class="card-footer">
+                <li class="product">
+                  <i class="fa-solid fa-bed"></i> <span>5 Beds</span>
+                </li>
+                <li class="product">
+                  <i class="fa-solid fa-bath"></i> <span>2 Bath</span>
+                </li>
+                <li class="product">
+                  <i class="fa-regular fa-square"></i> <span>2000 sqft</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURED-SECTION-ENDS-HERE -->
+    <!-- CUS-REV-SECTION-START-HERE -->
+
+    <section id="customer-review-section">
+      <div class="row">
+        <div class="col-6 col-md-12">
+          <div class="customer-review">
+            <div class="customer-review-img">
+              <img src="img/image.png" width="100%" alt="" />
+            </div>
+            <div class="cus-rv-sub-sec">
+              <div class="sub-section">
+                <div class="sub-section-heading">
+                  <h3>4000+</h3>
+                  <p><i class="fa-solid fa-arrow-trend-up"></i></p>
+                </div>
+                <p>By average for 2 bedroom apartments in San Francisco, CA</p>
+                <hr class="cus-rv-hr" />
+                <div class="customer-review-img">
+                  <img src="img/users.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-12">
+          <div class="cus-rv-text-box">
+            <div class="cus-rv-text">
+              <hr class="section-hr" />
+              <h2>You've found a neighborhood you love.</h2>
+              <p>
+                When you own a home, you're committing to living in one location
+                for a while. In a recent Trulia survey, we found that five out
+                of six respondents said finding the right neighborhood.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 available-service">
+          <div class="available-service-items">
+            <h2 class="ava-ser-heading">2,500</h2>
+            <p class="section-small-description">Home For Sale</p>
+          </div>
+          <div class="available-service-items">
+            <h2 class="ava-ser-heading">5000+</h2>
+            <p class="section-small-description">Home Recently Sold</p>
+          </div>
+          <div class="available-service-items">
+            <h2 class="ava-ser-heading">200+</h2>
+            <p class="section-small-description">Price Reduced</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CUS-REV-SECTION-ENDS-HERE -->
+    <!-- FEATURE-PRO-SECTION-START-HERE -->
+    <section id="feature-pro-section">
+      <div class="row">
+        <div class="feature-pro-box">
+          <div class="col-6 col-md-7 col-sm-12">
+            <div class="fea-pro-text-box">
+              <h2>Featured Properties</h2>
+              <p class="section-small-description">
+                Everything you need to know when you're looking
+              </p>
+              <button type="button" class="btn fea-pro-btn">
+                Get Started Now
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-md-5 col-sm-12">
+            <div class="fea-pro-img-box">
+              <div class="fea-pro-img">
+                <img src="img/home illustration Mask.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURE-PRO-SECTION-ENDS-HERE -->
+    <!-- FOOTER-SECTION-START-HERE -->
+    <footer id="footer-section">
+      <section class="first-footer">
+        <div class="row">
+          <div class="first-footer-items">
+            <div class="col-3 col-sm-6">
+              <h3>Products</h3>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">listing</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">property</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">agents</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3 col-sm-6">
+              <h3>resource</h3>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">our homes</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">member stories</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">video</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">free trial</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3 col-sm-6">
+              <h3>company</h3>
+              <ul class="footer-list">
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">partnership</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">terms of use</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">privacy</a>
+                </li>
+                <li class="footer-list-item">
+                  <a href="" class="footer-list-link">sitemap</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3 col-sm-6">
+              <h3>get in touch</h3>
+              <p class="section-small-description">
+                You'll find your next home, in any style you prefer.
+              </p>
+              <ul class="footer-icon">
+                <li class="footer-icon-item">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="footer-icon-item">
+                  <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="footer-icon-item">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="second-footer">
+        <div class="row">
+          <div class="second-footer-item">
+            <div class="col-6 col-sm-5">
+              <div class="footer-brand">Builder.</div>
+            </div>
+            <div class="col-6 col-sm-7">
+              <div class="footer-desc">
+                Copyright 2020.com, All rights reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- FOOTER-SECTION-ENDS-HERE -->
+
+    <!-- jquery-script-cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery-waypoint-plugin -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <!-- js-script -->
+    <script src="vendors/js/html5shiv-printshiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

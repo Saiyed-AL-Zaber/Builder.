@@ -1,0 +1,14 @@
+-----------font-family----------
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+btn-color------
+
+#0F1B4C
+nav-color
+#000228
+
+font-awesome-icons-----------
+<i class="fa-solid fa-xmark"></i>
+<i class="fa-solid fa-bed-front"></i>
+<i class="fa-solid fa-bath"></i>
+<i class="fa-solid fa-square-dashed"></i>
